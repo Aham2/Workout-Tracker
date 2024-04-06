@@ -143,6 +143,26 @@ nav button {
     margin-left: 10px;
 }
 
+.btn {
+    background: var(--primary);
+    border: 0;
+    padding: 10px;
+    font-family: "Poppins";
+    border-radius: 4px;
+}
+
+.menu {
+    display: flex;
+    column-gap: 2.7rem;
+    list-style: none;
+}
+
+.nav__item a {
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 /* auth forms */
 form.signup, form.login {
     max-width: 400px;

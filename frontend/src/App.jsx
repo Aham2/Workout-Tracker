@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Navbar from './components/Navbar'
+// import Hero from './pages/Hero'
 
 function App() {
   const { user } = useAuthContext()
@@ -14,6 +15,7 @@ function App() {
      <div className='App'>
       <BrowserRouter>
       <Navbar />
+      {/* <Hero /> */}
         <div className='pages'>
           <Routes>
             <Route
